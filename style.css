@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+.main{
+    background-image: url(asscets/image/bg.jpg);
+    height:70vh ;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw)
+}
+.box{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    
+}
+nav{
+    display: flex;
+    width: 66vw;
+    justify-content: space-between;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+.logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    overflow: hidden;
+    padding:17px 4px;
+}
